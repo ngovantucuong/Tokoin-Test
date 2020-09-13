@@ -8,14 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HeadLinesViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        NetworkManager.shared.getData(completion: {_ in 
-            
-        })
+//        NetworkManager.shared.getData(completion: {_ in
+//
+//        })
+        print("1")
     }
 
 
