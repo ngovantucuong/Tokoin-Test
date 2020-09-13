@@ -37,6 +37,21 @@
 		E86B587D250E211C002CBC03 /* HeadLinesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E86B5878250E211C002CBC03 /* HeadLinesCell.xib */; };
 		E86B587E250E211C002CBC03 /* HeadLinesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E86B5878250E211C002CBC03 /* HeadLinesCell.xib */; };
 		E86B5881250E242C002CBC03 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5880250E242C002CBC03 /* UIImageView+Extension.swift */; };
+		E86B5884250E28F0002CBC03 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5883250E28F0002CBC03 /* DetailViewController.swift */; };
+		E86B5885250E28F0002CBC03 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5883250E28F0002CBC03 /* DetailViewController.swift */; };
+		E86B5886250E28F0002CBC03 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5883250E28F0002CBC03 /* DetailViewController.swift */; };
+		E86B5888250E364E002CBC03 /* DetailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5887250E364E002CBC03 /* DetailService.swift */; };
+		E86B5889250E364E002CBC03 /* DetailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5887250E364E002CBC03 /* DetailService.swift */; };
+		E86B588A250E364F002CBC03 /* DetailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5887250E364E002CBC03 /* DetailService.swift */; };
+		E86B588C250E4707002CBC03 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B588B250E4707002CBC03 /* DetailPresenter.swift */; };
+		E86B588D250E4707002CBC03 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B588B250E4707002CBC03 /* DetailPresenter.swift */; };
+		E86B588E250E4707002CBC03 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B588B250E4707002CBC03 /* DetailPresenter.swift */; };
+		E86B5890250E545D002CBC03 /* CategoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B588F250E545D002CBC03 /* CategoryPresenter.swift */; };
+		E86B5891250E545D002CBC03 /* CategoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B588F250E545D002CBC03 /* CategoryPresenter.swift */; };
+		E86B5892250E545D002CBC03 /* CategoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B588F250E545D002CBC03 /* CategoryPresenter.swift */; };
+		E86B5894250E5EB6002CBC03 /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5893250E5EB6002CBC03 /* ProfilePresenter.swift */; };
+		E86B5895250E5EB6002CBC03 /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5893250E5EB6002CBC03 /* ProfilePresenter.swift */; };
+		E86B5896250E5EB6002CBC03 /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5893250E5EB6002CBC03 /* ProfilePresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +94,11 @@
 		E86B5877250E211C002CBC03 /* HeadLinesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadLinesCell.swift; sourceTree = "<group>"; };
 		E86B5878250E211C002CBC03 /* HeadLinesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeadLinesCell.xib; sourceTree = "<group>"; };
 		E86B5880250E242C002CBC03 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		E86B5883250E28F0002CBC03 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E86B5887250E364E002CBC03 /* DetailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailService.swift; sourceTree = "<group>"; };
+		E86B588B250E4707002CBC03 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		E86B588F250E545D002CBC03 /* CategoryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPresenter.swift; sourceTree = "<group>"; };
+		E86B5893250E5EB6002CBC03 /* ProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +186,7 @@
 		E86B585A250E1A1E002CBC03 /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
+				E86B5887250E364E002CBC03 /* DetailService.swift */,
 			);
 			path = DataSource;
 			sourceTree = "<group>";
@@ -191,6 +212,9 @@
 		E86B585D250E1A45002CBC03 /* Presenters */ = {
 			isa = PBXGroup;
 			children = (
+				E86B588B250E4707002CBC03 /* DetailPresenter.swift */,
+				E86B588F250E545D002CBC03 /* CategoryPresenter.swift */,
+				E86B5893250E5EB6002CBC03 /* ProfilePresenter.swift */,
 			);
 			path = Presenters;
 			sourceTree = "<group>";
@@ -250,6 +274,7 @@
 		E86B5882250E2880002CBC03 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				E86B5883250E28F0002CBC03 /* DetailViewController.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -388,14 +413,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E86B5890250E545D002CBC03 /* CategoryPresenter.swift in Sources */,
+				E86B5884250E28F0002CBC03 /* DetailViewController.swift in Sources */,
 				E86B5881250E242C002CBC03 /* UIImageView+Extension.swift in Sources */,
 				E86B5869250E1C3F002CBC03 /* News.swift in Sources */,
 				E86B5865250E1AE0002CBC03 /* Constants.swift in Sources */,
 				E86B5861250E1A88002CBC03 /* NetworkManager.swift in Sources */,
 				E86B586D250E1F66002CBC03 /* CategoriesViewController.swift in Sources */,
+				E86B5888250E364E002CBC03 /* DetailService.swift in Sources */,
+				E86B5894250E5EB6002CBC03 /* ProfilePresenter.swift in Sources */,
 				E86B5879250E211C002CBC03 /* HeadLinesCell.swift in Sources */,
 				E86B582F250E1953002CBC03 /* HeadLinesViewController.swift in Sources */,
 				E86B582B250E1953002CBC03 /* AppDelegate.swift in Sources */,
+				E86B588C250E4707002CBC03 /* DetailPresenter.swift in Sources */,
 				E86B582D250E1953002CBC03 /* SceneDelegate.swift in Sources */,
 				E86B5871250E1F87002CBC03 /* PropfileViewController.swift in Sources */,
 			);
@@ -407,11 +437,16 @@
 			files = (
 				E86B587A250E211C002CBC03 /* HeadLinesCell.swift in Sources */,
 				E86B5862250E1A89002CBC03 /* NetworkManager.swift in Sources */,
+				E86B5895250E5EB6002CBC03 /* ProfilePresenter.swift in Sources */,
+				E86B5891250E545D002CBC03 /* CategoryPresenter.swift in Sources */,
 				E86B5842250E195A002CBC03 /* Tokoin_TestTests.swift in Sources */,
+				E86B588D250E4707002CBC03 /* DetailPresenter.swift in Sources */,
+				E86B5889250E364E002CBC03 /* DetailService.swift in Sources */,
 				E86B586A250E1C3F002CBC03 /* News.swift in Sources */,
 				E86B5872250E1F87002CBC03 /* PropfileViewController.swift in Sources */,
 				E86B5866250E1AE0002CBC03 /* Constants.swift in Sources */,
 				E86B586E250E1F66002CBC03 /* CategoriesViewController.swift in Sources */,
+				E86B5885250E28F0002CBC03 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,11 +456,16 @@
 			files = (
 				E86B587B250E211C002CBC03 /* HeadLinesCell.swift in Sources */,
 				E86B5863250E1A89002CBC03 /* NetworkManager.swift in Sources */,
+				E86B5896250E5EB6002CBC03 /* ProfilePresenter.swift in Sources */,
+				E86B5892250E545D002CBC03 /* CategoryPresenter.swift in Sources */,
 				E86B584D250E195B002CBC03 /* Tokoin_TestUITests.swift in Sources */,
+				E86B588E250E4707002CBC03 /* DetailPresenter.swift in Sources */,
+				E86B588A250E364F002CBC03 /* DetailService.swift in Sources */,
 				E86B586B250E1C3F002CBC03 /* News.swift in Sources */,
 				E86B5873250E1F87002CBC03 /* PropfileViewController.swift in Sources */,
 				E86B5867250E1AE0002CBC03 /* Constants.swift in Sources */,
 				E86B586F250E1F66002CBC03 /* CategoriesViewController.swift in Sources */,
+				E86B5886250E28F0002CBC03 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
