@@ -15,6 +15,15 @@
 		E86B5837250E195A002CBC03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E86B5835250E195A002CBC03 /* LaunchScreen.storyboard */; };
 		E86B5842250E195A002CBC03 /* Tokoin_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5841250E195A002CBC03 /* Tokoin_TestTests.swift */; };
 		E86B584D250E195B002CBC03 /* Tokoin_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B584C250E195B002CBC03 /* Tokoin_TestUITests.swift */; };
+		E86B5861250E1A88002CBC03 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5860250E1A88002CBC03 /* NetworkManager.swift */; };
+		E86B5862250E1A89002CBC03 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5860250E1A88002CBC03 /* NetworkManager.swift */; };
+		E86B5863250E1A89002CBC03 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5860250E1A88002CBC03 /* NetworkManager.swift */; };
+		E86B5865250E1AE0002CBC03 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5864250E1AE0002CBC03 /* Constants.swift */; };
+		E86B5866250E1AE0002CBC03 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5864250E1AE0002CBC03 /* Constants.swift */; };
+		E86B5867250E1AE0002CBC03 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5864250E1AE0002CBC03 /* Constants.swift */; };
+		E86B5869250E1C3F002CBC03 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5868250E1C3F002CBC03 /* News.swift */; };
+		E86B586A250E1C3F002CBC03 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5868250E1C3F002CBC03 /* News.swift */; };
+		E86B586B250E1C3F002CBC03 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5868250E1C3F002CBC03 /* News.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,9 @@
 		E86B5848250E195B002CBC03 /* Tokoin-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tokoin-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E86B584C250E195B002CBC03 /* Tokoin_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokoin_TestUITests.swift; sourceTree = "<group>"; };
 		E86B584E250E195B002CBC03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E86B5860250E1A88002CBC03 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E86B5864250E1AE0002CBC03 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E86B5868250E1C3F002CBC03 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,12 @@
 		E86B5829250E1953002CBC03 /* Tokoin-Test */ = {
 			isa = PBXGroup;
 			children = (
+				E86B585A250E1A1E002CBC03 /* DataSource */,
+				E86B585B250E1A31002CBC03 /* Models */,
+				E86B585C250E1A3F002CBC03 /* Views */,
+				E86B585D250E1A45002CBC03 /* Presenters */,
+				E86B585E250E1A57002CBC03 /* Commons */,
+				E86B585F250E1A70002CBC03 /* NetWorking */,
 				E86B582A250E1953002CBC03 /* AppDelegate.swift */,
 				E86B582C250E1953002CBC03 /* SceneDelegate.swift */,
 				E86B582E250E1953002CBC03 /* ViewController.swift */,
@@ -126,6 +144,51 @@
 				E86B584E250E195B002CBC03 /* Info.plist */,
 			);
 			path = "Tokoin-TestUITests";
+			sourceTree = "<group>";
+		};
+		E86B585A250E1A1E002CBC03 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		E86B585B250E1A31002CBC03 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E86B5868250E1C3F002CBC03 /* News.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E86B585C250E1A3F002CBC03 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E86B585D250E1A45002CBC03 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		E86B585E250E1A57002CBC03 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				E86B5864250E1AE0002CBC03 /* Constants.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		E86B585F250E1A70002CBC03 /* NetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				E86B5860250E1A88002CBC03 /* NetworkManager.swift */,
+			);
+			path = NetWorking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +322,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E86B5869250E1C3F002CBC03 /* News.swift in Sources */,
+				E86B5865250E1AE0002CBC03 /* Constants.swift in Sources */,
+				E86B5861250E1A88002CBC03 /* NetworkManager.swift in Sources */,
 				E86B582F250E1953002CBC03 /* ViewController.swift in Sources */,
 				E86B582B250E1953002CBC03 /* AppDelegate.swift in Sources */,
 				E86B582D250E1953002CBC03 /* SceneDelegate.swift in Sources */,
@@ -269,7 +335,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E86B5862250E1A89002CBC03 /* NetworkManager.swift in Sources */,
 				E86B5842250E195A002CBC03 /* Tokoin_TestTests.swift in Sources */,
+				E86B586A250E1C3F002CBC03 /* News.swift in Sources */,
+				E86B5866250E1AE0002CBC03 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +346,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E86B5863250E1A89002CBC03 /* NetworkManager.swift in Sources */,
 				E86B584D250E195B002CBC03 /* Tokoin_TestUITests.swift in Sources */,
+				E86B586B250E1C3F002CBC03 /* News.swift in Sources */,
+				E86B5867250E1AE0002CBC03 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
