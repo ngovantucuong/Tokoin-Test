@@ -30,6 +30,13 @@
 		E86B5871250E1F87002CBC03 /* PropfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5870250E1F87002CBC03 /* PropfileViewController.swift */; };
 		E86B5872250E1F87002CBC03 /* PropfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5870250E1F87002CBC03 /* PropfileViewController.swift */; };
 		E86B5873250E1F87002CBC03 /* PropfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5870250E1F87002CBC03 /* PropfileViewController.swift */; };
+		E86B5879250E211C002CBC03 /* HeadLinesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5877250E211C002CBC03 /* HeadLinesCell.swift */; };
+		E86B587A250E211C002CBC03 /* HeadLinesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5877250E211C002CBC03 /* HeadLinesCell.swift */; };
+		E86B587B250E211C002CBC03 /* HeadLinesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5877250E211C002CBC03 /* HeadLinesCell.swift */; };
+		E86B587C250E211C002CBC03 /* HeadLinesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E86B5878250E211C002CBC03 /* HeadLinesCell.xib */; };
+		E86B587D250E211C002CBC03 /* HeadLinesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E86B5878250E211C002CBC03 /* HeadLinesCell.xib */; };
+		E86B587E250E211C002CBC03 /* HeadLinesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E86B5878250E211C002CBC03 /* HeadLinesCell.xib */; };
+		E86B5881250E242C002CBC03 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5880250E242C002CBC03 /* UIImageView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +76,9 @@
 		E86B5868250E1C3F002CBC03 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		E86B586C250E1F66002CBC03 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
 		E86B5870250E1F87002CBC03 /* PropfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropfileViewController.swift; sourceTree = "<group>"; };
+		E86B5877250E211C002CBC03 /* HeadLinesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadLinesCell.swift; sourceTree = "<group>"; };
+		E86B5878250E211C002CBC03 /* HeadLinesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeadLinesCell.xib; sourceTree = "<group>"; };
+		E86B5880250E242C002CBC03 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,9 +181,9 @@
 		E86B585C250E1A3F002CBC03 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E86B582E250E1953002CBC03 /* HeadLinesViewController.swift */,
-				E86B586C250E1F66002CBC03 /* CategoriesViewController.swift */,
-				E86B5870250E1F87002CBC03 /* PropfileViewController.swift */,
+				E86B5874250E20C5002CBC03 /* HeadLines */,
+				E86B5875250E20D0002CBC03 /* Categories */,
+				E86B5876250E20DB002CBC03 /* Profiles */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -188,6 +198,7 @@
 		E86B585E250E1A57002CBC03 /* Commons */ = {
 			isa = PBXGroup;
 			children = (
+				E86B587F250E241E002CBC03 /* Extensions */,
 				E86B5864250E1AE0002CBC03 /* Constants.swift */,
 			);
 			path = Commons;
@@ -199,6 +210,48 @@
 				E86B5860250E1A88002CBC03 /* NetworkManager.swift */,
 			);
 			path = NetWorking;
+			sourceTree = "<group>";
+		};
+		E86B5874250E20C5002CBC03 /* HeadLines */ = {
+			isa = PBXGroup;
+			children = (
+				E86B5882250E2880002CBC03 /* Detail */,
+				E86B582E250E1953002CBC03 /* HeadLinesViewController.swift */,
+				E86B5877250E211C002CBC03 /* HeadLinesCell.swift */,
+				E86B5878250E211C002CBC03 /* HeadLinesCell.xib */,
+			);
+			path = HeadLines;
+			sourceTree = "<group>";
+		};
+		E86B5875250E20D0002CBC03 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E86B586C250E1F66002CBC03 /* CategoriesViewController.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		E86B5876250E20DB002CBC03 /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				E86B5870250E1F87002CBC03 /* PropfileViewController.swift */,
+			);
+			path = Profiles;
+			sourceTree = "<group>";
+		};
+		E86B587F250E241E002CBC03 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E86B5880250E242C002CBC03 /* UIImageView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E86B5882250E2880002CBC03 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,6 +360,7 @@
 			files = (
 				E86B5837250E195A002CBC03 /* LaunchScreen.storyboard in Resources */,
 				E86B5834250E195A002CBC03 /* Assets.xcassets in Resources */,
+				E86B587C250E211C002CBC03 /* HeadLinesCell.xib in Resources */,
 				E86B5832250E1953002CBC03 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +369,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E86B587D250E211C002CBC03 /* HeadLinesCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +377,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E86B587E250E211C002CBC03 /* HeadLinesCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,10 +388,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E86B5881250E242C002CBC03 /* UIImageView+Extension.swift in Sources */,
 				E86B5869250E1C3F002CBC03 /* News.swift in Sources */,
 				E86B5865250E1AE0002CBC03 /* Constants.swift in Sources */,
 				E86B5861250E1A88002CBC03 /* NetworkManager.swift in Sources */,
 				E86B586D250E1F66002CBC03 /* CategoriesViewController.swift in Sources */,
+				E86B5879250E211C002CBC03 /* HeadLinesCell.swift in Sources */,
 				E86B582F250E1953002CBC03 /* HeadLinesViewController.swift in Sources */,
 				E86B582B250E1953002CBC03 /* AppDelegate.swift in Sources */,
 				E86B582D250E1953002CBC03 /* SceneDelegate.swift in Sources */,
@@ -347,6 +405,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E86B587A250E211C002CBC03 /* HeadLinesCell.swift in Sources */,
 				E86B5862250E1A89002CBC03 /* NetworkManager.swift in Sources */,
 				E86B5842250E195A002CBC03 /* Tokoin_TestTests.swift in Sources */,
 				E86B586A250E1C3F002CBC03 /* News.swift in Sources */,
@@ -360,6 +419,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E86B587B250E211C002CBC03 /* HeadLinesCell.swift in Sources */,
 				E86B5863250E1A89002CBC03 /* NetworkManager.swift in Sources */,
 				E86B584D250E195B002CBC03 /* Tokoin_TestUITests.swift in Sources */,
 				E86B586B250E1C3F002CBC03 /* News.swift in Sources */,
