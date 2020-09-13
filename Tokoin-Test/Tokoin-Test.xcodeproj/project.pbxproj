@@ -62,6 +62,11 @@
 		E86B58A2250E6699002CBC03 /* ProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E86B589E250E6698002CBC03 /* ProfileCell.xib */; };
 		E86B58A3250E6699002CBC03 /* ProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E86B589E250E6698002CBC03 /* ProfileCell.xib */; };
 		E86B58A4250E6699002CBC03 /* ProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E86B589E250E6698002CBC03 /* ProfileCell.xib */; };
+		E86B58A5250E6FA7002CBC03 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5898250E5FD4002CBC03 /* DBManager.swift */; };
+		E86B58A6250E6FA7002CBC03 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5898250E5FD4002CBC03 /* DBManager.swift */; };
+		E86B58A7250E6FE7002CBC03 /* UserRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B589B250E6020002CBC03 /* UserRealm.swift */; };
+		E86B58A8250E6FE8002CBC03 /* UserRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B589B250E6020002CBC03 /* UserRealm.swift */; };
+		E86B58A9250E7015002CBC03 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86B5880250E242C002CBC03 /* UIImageView+Extension.swift */; };
 		FFB5F12909DF7480617B585A /* Pods_Tokoin_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30BE6DFA95CCC3CEED94E0D /* Pods_Tokoin_Test.framework */; };
 /* End PBXBuildFile section */
 
@@ -621,6 +626,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E86B58A7250E6FE7002CBC03 /* UserRealm.swift in Sources */,
 				E86B58A0250E6699002CBC03 /* ProfileCell.swift in Sources */,
 				E86B587A250E211C002CBC03 /* HeadLinesCell.swift in Sources */,
 				E86B5862250E1A89002CBC03 /* NetworkManager.swift in Sources */,
@@ -630,10 +636,12 @@
 				E86B588D250E4707002CBC03 /* DetailPresenter.swift in Sources */,
 				E86B5889250E364E002CBC03 /* DetailService.swift in Sources */,
 				E86B586A250E1C3F002CBC03 /* News.swift in Sources */,
+				E86B58A9250E7015002CBC03 /* UIImageView+Extension.swift in Sources */,
 				E86B5872250E1F87002CBC03 /* PropfileViewController.swift in Sources */,
 				E86B5866250E1AE0002CBC03 /* Constants.swift in Sources */,
 				E86B586E250E1F66002CBC03 /* CategoriesViewController.swift in Sources */,
 				E86B5885250E28F0002CBC03 /* DetailViewController.swift in Sources */,
+				E86B58A5250E6FA7002CBC03 /* DBManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,6 +649,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E86B58A8250E6FE8002CBC03 /* UserRealm.swift in Sources */,
 				E86B58A1250E6699002CBC03 /* ProfileCell.swift in Sources */,
 				E86B587B250E211C002CBC03 /* HeadLinesCell.swift in Sources */,
 				E86B5863250E1A89002CBC03 /* NetworkManager.swift in Sources */,
@@ -654,6 +663,7 @@
 				E86B5867250E1AE0002CBC03 /* Constants.swift in Sources */,
 				E86B586F250E1F66002CBC03 /* CategoriesViewController.swift in Sources */,
 				E86B5886250E28F0002CBC03 /* DetailViewController.swift in Sources */,
+				E86B58A6250E6FA7002CBC03 /* DBManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
